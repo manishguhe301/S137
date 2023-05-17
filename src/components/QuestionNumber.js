@@ -1,6 +1,6 @@
 const QuestionNumber = ({ currentQuestion, totalQuestions }) => {
   return (
-    <div className='QuestionNumber'>
+    <div className='questionNumber'>
       <p>
         {currentQuestion} / {totalQuestions}
       </p>

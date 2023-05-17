@@ -16,7 +16,7 @@ header {
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
 }
 
-.Question {
+.question {
   background-color: #8fcbd3;
   flex: 1;
   display: flex;
@@ -25,7 +25,7 @@ header {
   padding: 1.5em;
 }
 
-.QuestionContainer {
+.questionContainer {
   background-color: white;
   width: 95%;
   display: flex;
@@ -38,14 +38,14 @@ header {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
 }
 
-.ProgressBars {
+.progressBars {
   display: flex;
   width: 90%;
   flex-wrap: wrap;
   gap: 0.5em;
 }
 
-.ProgressBarWrapper {
+.progressBarWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,16 +69,16 @@ progress[value]::-webkit-progress-value {
   background-color: #20adb4;
 }
 
-.QuestionNumber {
+.questionNumber {
   font-size: 1.4rem;
   color: #e74b16;
 }
 
-.QuestionStatement {
+.questionStatement {
   font-size: 1rem;
 }
 
-.SliderWrapper {
+.sliderWrapper {
   width: 90%;
 }
 
@@ -91,17 +91,16 @@ datalist {
   justify-content: space-between;
   flex-direction: row;
   align-items: flex-start;
-  /* writing-mode: vertical-rl; */
   width: 100%;
 }
 
-.NavigationButtons {
+.navigationButtons {
   display: flex;
   width: 90%;
   justify-content: space-between;
 }
 
-.ButtonWrapper {
+.buttonWrapper {
   display: flex;
   align-items: center;
   font-size: 1.2rem;
@@ -113,15 +112,15 @@ option {
 }
 
 @media (min-width: 768px) {
-  .QuestionContainer {
+  .questionContainer {
     width: 80%;
   }
 
-  .QuestionStatement {
+  .questionStatement {
     font-size: 1.4rem;
   }
 
-  .ProgressBars {
+  .progressBars {
     flex-wrap: nowrap;
   }
 }

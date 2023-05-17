@@ -1,6 +1,6 @@
 const Slider = ({ value, onChange }) => {
   return (
-    <div className='SliderWrapper'>
+    <div className='sliderWrapper'>
       <input
         id='Slider'
         step={25}

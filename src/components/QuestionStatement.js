@@ -1,4 +1,4 @@
 const QuestionStatement = ({ statement }) => {
-  return <p className='QuestionStatement'>{statement}</p>;
+  return <p className='questionStatement'>{statement}</p>;
 };
 export default QuestionStatement;

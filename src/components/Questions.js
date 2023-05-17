@@ -119,9 +119,9 @@ const Questions = () => {
   });
 
   return (
-    <div className='Question'>
-      <div className='QuestionContainer'>
-        <div className='ProgressBars'>
+    <div className='question'>
+      <div className='questionContainer'>
+        <div className='progressBars'>
           {progressBarValue.map((progressBar) => (
             <ProgressBar
               key={progressBar.key}
@@ -137,9 +137,9 @@ const Questions = () => {
         <QuestionStatement statement={questionStatement[0].Statement} />
         <Slider value={sliderValue} onChange={handleSliderOnChange} />
 
-        <div className='NavigationButtons'>
+        <div className='navigationButtons'>
           <div
-            className='ButtonWrapper'
+            className='buttonWrapper'
             onClick={() => {
               handleNavigationButtons('previous');
             }}
@@ -151,7 +151,7 @@ const Questions = () => {
             onClick={() => {
               handleNavigationButtons('next');
             }}
-            className='ButtonWrapper'
+            className='buttonWrapper'
           >
             <p>Next</p>
             <img src={Next} alt='Forward arrow' />
